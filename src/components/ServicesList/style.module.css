@@ -1,0 +1,31 @@
+.servicesList{
+    margin: 0% 15%;
+}
+
+.services {
+    position: relative;
+}
+
+.services > img {
+    position:absolute;
+    z-index: -1;
+}
+
+.info {
+    margin: 3.2rem 9rem 0rem 9rem ;
+    text-align: center;
+}
+.info hr {
+    width: 4rem;
+    font-size: 2rem;
+}
+.info p {
+    width: 80%;
+    margin: 4rem auto;
+
+}
+
+.services .btn {
+    margin: auto;
+}
+

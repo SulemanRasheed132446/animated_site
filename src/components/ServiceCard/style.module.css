@@ -1,0 +1,23 @@
+.serviceCard {
+    width: 80%;
+    margin: 2rem ;
+    padding: 1.2rem 2rem;
+    box-shadow: 12px 10px 2rem  rgba(179, 178, 176, 0.2) !important;
+    border-radius: 2rem !important;
+    transition: all 0.5s;
+    min-height:300px
+}
+
+.serviceCard p {
+    line-height: 1.4;
+}
+
+.serviceCard:hover, .serviceCard:hover p  {
+    background-color: #458FF6;
+    color: white;
+}
+
+
+.serviceGrid {
+    height: 100%;
+}

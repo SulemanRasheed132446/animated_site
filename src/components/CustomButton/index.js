@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './style.module.css'
-import Fade from 'react-reveal/Fade'
 
-export const CustomButton = ({ text, backgroundColor, color }) => {
+export const CustomButton = ({ text, backgroundColor, color, margin = 0 }) => {
     const btnStyle = {
         backgroundColor,
-        color
+        color,
+        margin
     }
     return (
         <div className={styles.btn} style={btnStyle}>

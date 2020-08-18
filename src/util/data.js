@@ -4,6 +4,8 @@ import emergency from '../images/emergency.svg'
 import pharmacy from '../images/pharmacy.svg'
 import search from '../images/search.svg'
 import tracking from '../images/tracking.svg'
+import healthprovider from '../images/healthprovider.svg'
+import mobileapp from '../images/mobileapp.svg'
 
 
 export const servicesList = [
@@ -37,5 +39,26 @@ export const servicesList = [
         icon: tracking,
         heading: 'Tracking',
         title: 'Track and save your medical history and health data ',
+    },
+]
+
+export const infoList = [
+    {
+        description: `Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
+        in the solutions we deliver`,
+        btnText: "Learn more",
+        svg: healthprovider,
+        heading: "Leading healthcare providers",
+        toggle: false
+    },
+    {
+        description: `Our dedicated patient engagement app and 
+        web portal allow you to access information instantaneously (no tedeous form, long calls, 
+        or administrative hassle) and securely`,
+        btnText: "Download",
+        svg: mobileapp,
+        heading: "Download our mobile apps",
+        toggle: true
+
     },
 ]

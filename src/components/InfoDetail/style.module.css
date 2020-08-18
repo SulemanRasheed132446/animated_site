@@ -1,0 +1,12 @@
+.infoDetails {
+    width: 80%;
+    text-align: start;
+
+}
+
+.infoDetails hr {
+    border:0.3rem solid black;
+    width: 5rem;
+    margin-left: 0;
+    border-radius: 1rem;
+}

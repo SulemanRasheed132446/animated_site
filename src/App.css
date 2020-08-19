@@ -39,7 +39,7 @@ h4 {
   width: 80%;
 }
 .container {
-  margin: 4% 10% ;
+  margin: 4% 10% 0% 10% ;
 }
 .mrg {
   margin-top: 6%;
@@ -48,11 +48,9 @@ h4 {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .img {
-    display: none;
-  }
+ 
   .container {
-      margin:6% 10%;
+      margin:6% 5% 0% 10%;
   }
 }
 
@@ -61,4 +59,8 @@ h4 {
   .infoBox{
     width: 100%;
   }
+}
+
+li {
+  list-style: none;
 }

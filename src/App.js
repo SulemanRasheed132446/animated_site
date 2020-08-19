@@ -5,6 +5,7 @@ import { Banner } from './components/Banner'
 import { ServicesList } from './components/ServicesList'
 import { InfoList } from './components/InfoList'
 import { Carousel } from './components/Carousel'
+import { Footer } from './components/Footer'
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <ServicesList />
       <InfoList />
       <Carousel />
+      <Footer />
     </div>
   );
 }

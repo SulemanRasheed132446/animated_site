@@ -1,0 +1,25 @@
+.footer {
+    background:linear-gradient(rgba(103, 195, 243, 1),rgba(90, 152, 242, 1));
+}
+
+.footer h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 1rem 0 0 0;
+}
+.footer p  {
+    color:white;
+    margin: 0.2rem;
+}
+ul {
+    padding: 0;
+}
+.footer li {
+    color:white;
+    margin: 0.2rem 0rem;
+    font-weight: 200;
+
+}
+.footercnt {
+    padding: 10rem 0rem 5rem 0rem
+}

@@ -11,8 +11,10 @@
 .serviceCard p {
     line-height: 1.4;
 }
-
-.serviceCard:hover, .serviceCard:hover p  {
+.serviceCard h2{
+    color:#458FF6 ;
+}
+.serviceCard:hover, .serviceCard:hover p, .serviceCard:hover h2  {
     background-color: #458FF6;
     color: white;
 }

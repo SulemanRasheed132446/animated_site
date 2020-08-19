@@ -1,0 +1,24 @@
+.carousel{
+    padding: 5rem 10rem;
+    margin-top: 10rem;
+    background:linear-gradient(rgba(103, 195, 243, 1),rgba(90, 152, 242, 1));
+    border-radius: 2rem;
+}
+
+.carousel hr {
+    width: 4rem;
+    border: 0.2rem solid white;
+    border-radius: 0.2rem;
+    margin-bottom: 2rem;
+}
+.carousel p {
+    color: white;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    /* For mobile phones: */
+    .carousel {
+        padding: 5rem 3rem;
+    }
+  }

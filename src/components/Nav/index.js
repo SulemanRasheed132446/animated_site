@@ -13,24 +13,26 @@ export const Nav = () => {
     }
     return (
         <Fade top >
-            <nav className={styles.navBar}>
-                <Grid container spacing={1} justify="space-between">
-                    <img src={logo} alt="company logo"></img>
-                    <Grid>
-                        <ul>
-                            {options.map((option) => {
-                                return (
-                                    <li
-                                        key={option}
-                                        style={option === selected ? selectedStyle : null}
-                                        onClick={() => setselected(option)}
-                                    > {option} </li>
-                                )
-                            })}
-                        </ul>
+            <div className=" container">
+                <nav className={styles.navBar}>
+                    <Grid container spacing={1} justify="space-between">
+                        <img src={logo} alt="company logo"></img>
+                        <Grid>
+                            <ul>
+                                {options.map((option) => {
+                                    return (
+                                        <li
+                                            key={option}
+                                            style={option === selected ? selectedStyle : null}
+                                            onClick={() => setselected(option)}
+                                        > {option} </li>
+                                    )
+                                })}
+                            </ul>
+                        </Grid>
                     </Grid>
-                </Grid>
-            </nav>
-        </Fade>
+                </nav >
+            </div >
+        </Fade >
     )
 }

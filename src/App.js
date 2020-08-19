@@ -4,6 +4,7 @@ import { Nav } from './components/Nav'
 import { Banner } from './components/Banner'
 import { ServicesList } from './components/ServicesList'
 import { InfoList } from './components/InfoList'
+import { Carousel } from './components/Carousel'
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <ServicesList />
       <InfoList />
+      <Carousel />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import search from '../images/search.svg'
 import tracking from '../images/tracking.svg'
 import healthprovider from '../images/healthprovider.svg'
 import mobileapp from '../images/mobileapp.svg'
+import customer from '../images/customer.png'
 
 
 export const servicesList = [
@@ -61,4 +62,31 @@ export const infoList = [
         toggle: true
 
     },
+]
+
+export const customerReviews = [
+    {
+        name: 'Edward Newgate',
+        title: 'Founder Circle',
+        comment: `“Our dedicated patient engagement app and
+        web portal allow you to access information instantaneously (no tedeous form, long calls,
+        or administrative hassle) and securely”`,
+        image: customer
+    },
+    {
+        name: 'Edward Newgate',
+        title: 'Founder Circle',
+        comment: `“Our dedicated patient engagement app and
+        web portal allow you to access information instantaneously (no tedeous form, long calls,
+        or administrative hassle) and securely”`,
+        image: customer
+    },
+    {
+        name: 'Edward Newgate',
+        title: 'Founder Circle',
+        comment: `“Our dedicated patient engagement app and
+        web portal allow you to access information instantaneously (no tedeous form, long calls,
+        or administrative hassle) and securely”`,
+        image: customer
+    }
 ]

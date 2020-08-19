@@ -8,11 +8,11 @@ import { CustomButton } from '../CustomButton'
 
 export const Banner = () => {
     return (
-        <div className={styles.banner}>
+        <div className="container">
             <Grid container spacing={1} justify="space-between">
-                <Grid xs={6} container direction="column" justify="center" >
+                <Grid xs={12} md={6} container direction="column" justify="center" >
                     <Fade left>
-                        <div className={styles.infoBox}>
+                        <div className="infoBox">
                             <h1>Virtual healthcare for you</h1>
                             <p>Trafalgar provides progressive, and affordable
                             healthcare, accessible on mobile and online for everyone</p>
@@ -20,10 +20,10 @@ export const Banner = () => {
                         </div>
                     </Fade>
                 </Grid>
-                <Grid xs={6}>
+                <Grid xs={12} md={6}>
                     <Fade right>
                         <div className={styles.bannerImgBox}>
-                            <img src={banner} alt="banner" />
+                            <img src={banner} className="img" alt="banner" />
                         </div>
                     </Fade>
                 </Grid>

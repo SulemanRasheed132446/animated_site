@@ -17,3 +17,48 @@ p {
   line-height: 1.2;
   color: #7D7987;
 }
+h2,h3,h4,h5 {
+  color: white;
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+h3 {
+  font-size: 1.4rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+
+.img {
+  width: 100%;
+}
+
+.infoBox {
+  width: 80%;
+}
+.container {
+  margin: 4% 10% ;
+}
+.mrg {
+  margin-top: 6%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .img {
+    display: none;
+  }
+  .container {
+      margin:6% 10%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* For mobile phones: */
+  .infoBox{
+    width: 100%;
+  }
+}

@@ -11,7 +11,7 @@ export const ServicesList = () => {
     return (
         <div className={styles.services}>
             <Fade left>
-                <img src={vector} />
+                <img src={vector} alt="vector" />
             </Fade>
             <div className={styles.info}>
                 <h1>Our Service</h1>

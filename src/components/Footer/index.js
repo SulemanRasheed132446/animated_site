@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './style.module.css'
 import { Grid } from '@material-ui/core'
-import logo from '../../images/logo.svg'
 export const Footer = () => {
     return (
         <footer className={styles.footer}>
@@ -15,7 +14,8 @@ export const Footer = () => {
                             <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
                         </Grid>
                         <Grid container direction="column" justify="flex-start" alignItems="center" xs={12} sm={6} md={2}>
-                            <div>                            <h3>Company</h3>
+                            <div>
+                                <h3>Company</h3>
                                 <ul>
                                     <li>About</li>
                                     <li>Testimonials</li>
